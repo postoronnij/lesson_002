@@ -22,6 +22,12 @@ violator_songs_list = [
 
 # TODO здесь ваш код
 
+time_3song = (violator_songs_list[3][1] + violator_songs_list[5][1] + violator_songs_list[8][1])
+
+time_3song_2 = round(time_3song, 2)
+
+print('Три песни звучат', time_3song_2, 'минут')
+
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
     'World in My Eyes': 4.76,
@@ -34,8 +40,13 @@ violator_songs_dict = {
     'Blue Dress': 4.18,
     'Clean': 5.68,
 }
-
 # распечатайте общее время звучания трех песен: 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress'
 #   А другие три песни звучат ХХХ минут
 
 # TODO здесь ваш код
+
+summa = (violator_songs_dict['Sweetest Perfection']
+         + violator_songs_dict['Policy of Truth']
+         + violator_songs_dict['Blue Dress'])
+sum2 = round(summa, 2)
+print('А другие три псени звучат', sum2, 'минут')
